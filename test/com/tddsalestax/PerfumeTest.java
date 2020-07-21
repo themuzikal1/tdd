@@ -20,10 +20,7 @@ public class PerfumeTest {
         boolean result = validator.checkPerfumePrice(0.00);
         assertFalse(result);
     }
-    @Test
-    public void zeroDollarAmountsNotAllowed(){
 
-    }
 
 
 }
